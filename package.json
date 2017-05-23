@@ -4,9 +4,9 @@
   "description": "Babel preset for Prometheus Research projects",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-react-app": "^2.2.0"
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-react-app": "^3.0.0"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/prometheusresearch/babel-preset-prometheusresearch/issues"
   },
-  "homepage": "https://github.com/prometheusresearch/babel-preset-prometheusresearch#readme"
+  "homepage": "https://github.com/prometheusresearch/babel-preset-prometheusresearch#readme",
+  "devDependencies": {
+    "babel-runtime": "^6.23.0"
+  }
 }
